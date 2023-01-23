@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/preload.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/main-link.css">
@@ -19,7 +20,7 @@
     <link rel="stylesheet" href="css/radio.css">
     <link rel="stylesheet" href="css/footer.css">
 
-    <script src="js/script.js" defer></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
     <header class="header">
@@ -139,7 +140,7 @@
                     </li>
                     <li class="about__item about__item_master">
                         <h3 class="about__item-title">Мастера бород и усов</h3>
-                        <p class="about__item-description">Мы заботливо уложим вашу бороду и усы</p> 
+                        <p class="about__item-description">Мы заботливо уложим вашу бороду и&nbsp;усы</p> 
                     </li>
                     <li class="about__item about__item_guarantee">
                         <h3 class="about__item-title">Гарантия качества</h3>
@@ -159,7 +160,7 @@
                     <li class="reserve__item">Выберите удобный день и время</li>
                 </ol>
 
-                <form action="" class="reserve__form">
+                <form action="#" class="reserve__form">
                     <div class="reserve__form-container">
                         <fieldset class="reserve__fieldset">
                             <legend class="reserve__legend">Услуга</legend>
@@ -304,7 +305,7 @@
         <div class="container">
             <div class="footer__container">
                 <img class="footer__logo" src="img/logo.svg" alt="Логотип барбершоп Chik-chik">
-            <nav class="footer__navigation navigation">
+            <div class="footer__navigation navigation">
                 <ul class="navigation__list">
                     <li class="navigation__item">
                         <a href="#price" class="navigation__link">Стоимость услуг</a>
@@ -313,16 +314,14 @@
                         <a href="#about" class="navigation__link">О нас</a>
                     </li>
                 </ul>
-            </nav>
+            </div>
 
-            <ul class="footer__list">
-                <li class="footer__item">Designer: Anastasia Ilina</li>
-                <li class="footer__item">Developer: Lyudmila Suntsova</li>
+            <ul class="footer__developers">
+                <li class="footer__developer">Designer: <a class="footer__developer-link" href="#">Anastasia Ilina</a></li>
+                <li class="footer__item">Developer: <a class="footer__developer-link" href="#">Lyudmila Suntsova</a></li>
             </ul>
 
-            <p class="footer__copyright">
-                <small>© chik chik, 2023</small>
-            </p>
+            <p class="footer__copyright">© chik chik, 2023</p>
             </div>
         </div>
     </footer>
