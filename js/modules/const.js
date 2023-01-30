@@ -1,0 +1,1 @@
+export const API_URL = 'https://shadow-judicious-suggestion.glitch.me/';
